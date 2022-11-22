@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escalação da Seleção brasileira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="escalar">
+        <div id="form4-3-3-of">
+            <img class="gol" id="goleiro" width="50px" src="imgs/selecionar.png" alt="goleiro"> 
+            <img class="latd" id="latD" width="50px" src="imgs/selecionar.png" alt="latD"> 
+            <img class="late" id="latE" width="50px" src="imgs/selecionar.png" alt="latE"> 
+            <img class="zagd" id="zagD" width="50px" src="imgs/selecionar.png" alt="zagD"> 
+            <img class="zage" id="zagE" width="50px" src="imgs/selecionar.png" alt="zagE"> 
+            <img class="mei1" id="meia1" width="50px" src="imgs/selecionar.png" alt="meia1"> 
+            <img class="mei2" id="meia2" width="50px" src="imgs/selecionar.png" alt="meia2"> 
+            <img class="mei3" id="meia3" width="50px" src="imgs/selecionar.png" alt="meia3"> 
+            <img class="ata1" id="atac1" width="50px" src="imgs/selecionar.png" alt="atac1"> 
+            <img class="ata2" id="atac2" width="50px" src="imgs/selecionar.png" alt="atac2"> 
+            <img class="ata3" id="atac3" width="50px" src="imgs/selecionar.png" alt="atac3"> 
+        </div>
+        <div id="form4-3-3-def">
+            <img class="gol" id="goleiro2" width="50px" src="imgs/selecionar.png" alt="goleiro2"> 
+            <img class="latd" id="latD2" width="50px" src="imgs/selecionar.png" alt="latD2"> 
+            <img class="late" id="latE2" width="50px" src="imgs/selecionar.png" alt="latE2"> 
+            <img class="zagd" id="zagD2" width="50px" src="imgs/selecionar.png" alt="zagD2"> 
+            <img class="zage" id="zagE2" width="50px" src="imgs/selecionar.png" alt="zagE2"> 
+            <img class="mei1" id="meia12" width="50px" src="imgs/selecionar.png" alt="meia12"> 
+            <img class="mei2" id="meia22" width="50px" src="imgs/selecionar.png" alt="meia22"> 
+            <img class="mei3" id="meia32" width="50px" src="imgs/selecionar.png" alt="meia32"> 
+            <img class="ata1" id="atac12" width="50px" src="imgs/selecionar.png" alt="atac1"> 
+            <img class="ata2" id="atac22" width="50px" src="imgs/selecionar.png" alt="atac2"> 
+            <img class="ata3" id="atac32" width="50px" src="imgs/selecionar.png" alt="atac3"> 
+        </div>
+        <div id="form4-3-2-1">
+            <img class="gol" id="goleiro3" width="50px" src="imgs/selecionar.png" alt="goleiro3"> 
+            <img class="latd" id="latD3" width="50px" src="imgs/selecionar.png" alt="latD3"> 
+            <img class="late" id="latE3" width="50px" src="imgs/selecionar.png" alt="latE3"> 
+            <img class="zagd" id="zagD3" width="50px" src="imgs/selecionar.png" alt="zagD2"> 
+            <img class="zage" id="zagE3" width="50px" src="imgs/selecionar.png" alt="zagE"> 
+            <img class="mei1" id="meia13" width="50px" src="imgs/selecionar.png" alt="meia13"> 
+            <img class="mei2" id="meia23" width="50px" src="imgs/selecionar.png" alt="meia22"> 
+            <img class="mei3" id="meia33" width="50px" src="imgs/selecionar.png" alt="meia3"> 
+            <img class="ata1" id="atac13" width="50px" src="imgs/selecionar.png" alt="atac1"> 
+            <img class="ata2" id="atac23" width="50px" src="imgs/selecionar.png" alt="atac2"> 
+            <img class="ata3" id="atac33" width="50px" src="imgs/selecionar.png" alt="atac3"> 
+        </div>
+    </div>
+
+    <div id="buttons">
+        <button onclick="selectform433of()">4-3-3(Ofensivo)</button>
+        <button onclick="selectform433def()">4-3-3(Defensivo)</button>
+        <button onclick="selectform4321()">4-3-2-1</button>
+    </div>
+
+    <div>
+        <h1>Goleiros</h1>
+        <div class="img_jogador">
+            <img src="imgs/jogadores/Alison.webp" alt="Alisson" onclick="golAlisson()">
+            <img src="imgs/jogadores/everson.jpg" alt="Ederson" onclick="golEderson()">
+            <img src="imgs/jogadores/weverton.jpg" alt="Weverton" onclick="golWeverton()">
+        </div>
+    </div>
+
+    <div>
+        <h1>Laterais Direitos</h1>
+        <div class="img_jogador">
+            <img src="imgs/jogadores/danilo.jpg" alt="Danilo" onclick="latdDanilo()">
+            <img src="imgs/jogadores/danialves.jpg" alt="Daniel Alves" onclick="latdDani()">
+        </div>
+    </div>
+
+    <div>
+        <h1>Laterais Esquerdos</h1>
+        <div class="img_jogador">
+            <img src="imgs/jogadores/alexsandro.jpg" alt="Alexsandro" onclick="latealexsandro()">
+            <img src="imgs/jogadores/alextelles.webp" alt="Alex Telles" onclick="latealextelles()">
+        </div>
+    </div>
+
+    <div>
+        <h1>Zagueiros Direitos</h1>
+        <div class="img_jogador">
+            <img src="imgs/jogadores/marquinhos.jpg" alt="Marquinhos" onclick="zagdmarquinhos()">
+            <img src="imgs/jogadores/bremer.webp" alt="Bremer" onclick="zagdbremer()">
+        </div>
+    </div>
+
+    <div>
+        <h1>Zagueiros Esquerdos</h1>
+        <div class="img_jogador">
+            <img src="imgs/jogadores/thiagosilva.jpg" alt="Thiago Silva" onclick="zagethiagosilva()">
+            <img src="imgs/jogadores/edermilitao.jpg" alt="Militão" onclick="zagemilitao()">
+        </div>
+    </div>
+
+    <div>
+        <h1>Meia 1</h1>
+        <div class="img_jogador">
+            <img src="imgs/jogadores/casemiro.jpg" alt="Casemiro" onclick="meia1casemiro()">
+            <img src="imgs/jogadores/fabinho.jpg" alt="Fabinho" onclick="meia1fabinho()">
+        </div>
+    </div>
+
+    <div>
+        <h1>Meia 2</h1>
+        <div class="img_jogador">
+            <img src="imgs/jogadores/fred.jpeg" alt="Fred" onclick="meia2fred()">
+            <img src="imgs/jogadores/paqueta.jpg" alt="Paquetá" onclick="meia2paqueta()">
+            <img src="imgs/jogadores/brunoguimaraes.jpg" alt="Bruno Guimarães" onclick="meia2bruno()">
+        </div>
+    </div>
+
+    <div>
+        <h1>Meia 3</h1>
+        <div class="img_jogador">
+            <img src="imgs/jogadores/neymar.webp" alt="Neymar" onclick="meia3neymar()">
+            <img src="imgs/jogadores/everton.jpg" alt="Everton Ribeiro" onclick="meia3everton()">
+        </div>
+    </div>
+
+    <div>
+        <h1>Ponta D.</h1>
+        <div class="img_jogador">
+            <img src="imgs/jogadores/raphinha.png" alt="Raphinha" onclick="atac2raphinha()">
+            <img src="imgs/jogadores/antony.jpg" alt="Antony" 
+            onclick="atac2antony()">
+            <img src="imgs/jogadores/rodrygo.jpg" alt="Rodrygo"
+            onclick="atac2rodrygo()">
+        </div>
+    </div>
+
+    <div>
+        <h1>Ponta E.</h1>
+        <div class="img_jogador">
+            <img src="imgs/jogadores/vinijr.webp" alt="ViniJr" onclick="atac1vinijr()">
+            <img src="imgs/jogadores/martinelli.webp" alt="Martinelli" onclick="atac1martinelli()">
+            <img src="imgs/jogadores/neymar.webp" alt="Neymar" onclick="atac1neymar()">
+        </div>
+    </div>
+
+    <div>
+        <h1>Centroavante</h1>
+        <div class="img_jogador">
+            <img src="imgs/jogadores/richarlison.jpg" alt="Richarlison" onclick="atac3richarlison()">
+            <img src="imgs/jogadores/pedro.jpg" alt="Pedro" onclick="atac3pedro()">
+            <img src="imgs/jogadores/gabrieljesus.jpg" alt="Gabriel Jesus" onclick="atac3gabrieljesus()">
+        </div>
+    </div>
+
+    
+</body>
+<script src="script.js"></script>
+</html>

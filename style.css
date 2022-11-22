@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+#escalar {
+    margin: auto;
+    width: 350px;
+    height: 500px;
+    background-image: url(imgs/campo.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+/* 4-3-3 Ofensivo */
+
+#form4-3-3-of {
+    display: none;
+
+}
+
+
+#goleiro {
+    display: flex;
+    transform: translate(300%, 850%);
+    
+}
+
+#latD {
+    display: flex;
+    transform: translate(550%, 550%);
+}
+
+#latE {
+    display: flex;
+    transform: translate(50%, 450%);
+}
+
+#zagD {
+    display: flex;
+    transform: translate(400%, 450%);
+}
+
+#zagE {
+    display: flex;
+    transform: translate(200%, 350%);
+}
+
+#meia1 {
+    display: flex;
+    transform: translate(300%, 30%);
+}
+
+#meia2 {
+    display: flex;
+    transform: translate(450%, -200%);
+}
+
+#meia3 {
+    display: flex;
+    transform: translate(150%, -300%);
+}
+
+#atac1 {
+    display: flex;
+    transform: translate(50%, -600%);
+}
+
+#atac2{
+    display: flex;
+    transform: translate(550%, -700%);
+}
+
+#atac3{
+    display: flex;
+    transform: translate(300%, -850%);
+}
+
+/* 4-3-3 defensivo */
+
+
+#form4-3-3-def {
+    display: none;
+}
+
+#goleiro2 {
+    display: flex;
+    transform: translate(300%, 850%);
+    
+}
+
+#latD2 {
+    display: flex;
+    transform: translate(550%, 550%);
+}
+
+#latE2 {
+    display: flex;
+    transform: translate(50%, 450%);
+}
+
+#zagD2 {
+    display: flex;
+    transform: translate(400%, 450%);
+}
+
+#zagE2 {
+    display: flex;
+    transform: translate(200%, 350%);
+}
+
+#meia12 {
+    display: flex;
+    transform: translate(150%, 30%);
+}
+
+#meia22 {
+    display: flex;
+    transform: translate(450%, -70%);
+}
+
+#meia32 {
+    display: flex;
+    transform: translate(300%, -300%);
+}
+
+#atac12 {
+    display: flex;
+    transform: translate(50%, -600%);
+}
+
+#atac22{
+    display: flex;
+    transform: translate(550%, -700%);
+}
+
+#atac32{
+    display: flex;
+    transform: translate(300%, -850%);
+}
+
+/* 4-3-2-1 */
+
+#form4-3-2-1 {
+    display: none;
+}
+
+#goleiro3 {
+    display: flex;
+    transform: translate(300%, 850%);
+    
+}
+
+#latD3 {
+    display: flex;
+    transform: translate(550%, 550%);
+}
+
+#latE3 {
+    display: flex;
+    transform: translate(50%, 450%);
+}
+
+#zagD3 {
+    display: flex;
+    transform: translate(400%, 450%);
+}
+
+#zagE3 {
+    display: flex;
+    transform: translate(200%, 350%);
+}
+
+#meia13 {
+    display: flex;
+    transform: translate(200%, 30%);
+}
+
+#meia23 {
+    display: flex;
+    transform: translate(400%, -70%);
+}
+
+#meia33 {
+    display: flex;
+    transform: translate(300%, -300%);
+}
+
+#atac13 {
+    display: flex;
+    transform: translate(50%, -450%);
+}
+
+#atac23 {
+    display: flex;
+    transform: translate(550%, -550%);
+}
+
+#atac33 {
+    display: flex;
+    transform: translate(300%, -850%);
+}
+
+#buttons > button {
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    padding: 10px;
+    border: 0;
+    width: 150px;
+}
+
+button:hover{
+    background-color: rgb(129, 129, 129);
+}
+
+button:focus{
+    background-color: lightgreen;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_jogador {
+    display: block;
+    text-align: center;
+}
+
+.img_jogador > img {
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    
+}
+
+
+
+
